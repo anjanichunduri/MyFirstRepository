@@ -1,3 +1,4 @@
+------------------------------------------------------------------------------------------------------------------------------------------
 Pull Request:
 
 
@@ -27,4 +28,23 @@ Git revert
 			§ Ex: git checkout -b test 
 	• git checkout {branch-name}  --> to switch to a branch
 git branch -d {branch-name}  --> to delete a branch
-vai-ydvg-zmu
+----------------------------------------------------------------Steps for Git first Project---------------------------------------------------------------------------
+1)Initialize user name and user mail in ur gitbash immediately after installing git in your system so that when code is pushed you can see who has pushed.
+  git config --global user.name "anjanichunduri"
+  git config --global user.email "anjanichunduri95@gmail.com"
+2)Go to the folder which you want to push to repo and right click for open gitBash here,then ur gitbash terminal opens
+3)Give theb below commands
+   -->git init
+      Initialized empty Git repository in the folder whci you want to push.
+   -->git status
+      Shows the untracked files in the folder working area or local.
+   -->git add -A
+      adding code from local or working area to staging area which means its ready to be commited and pushed to repo
+   -->git remote add  origin https://github.com/anjanichunduri/MyFirstRepository.git
+      Adding the name of the got repo when the folder need to be pushed
+   -->git push -u origin master
+      If first time github account appears for user login
+
+4)Now your code is available in the github account,which you can see on refershing.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
