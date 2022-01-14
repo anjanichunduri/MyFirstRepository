@@ -41,7 +41,8 @@ git branch -d {branch-name}  --> to delete a branch
    -->git add -A
       adding code from local or working area to staging area which means its ready to be commited and pushed to repo
    -->git remote add  origin https://github.com/anjanichunduri/MyFirstRepository.git
-      Adding the name of the got repo when the folder need to be pushed
+      Adding the name of the got repo when the folder need to be pushed,and origin ishe alias name for git repo here..so while pushing
+      we can directly use (git push origin master when used for second time while adding the modified file to repo)
    -->git push -u origin master
       If first time github account appears for user login
 
