@@ -1,0 +1,24 @@
+What is the diff betwen Continous deployment and continous devlivery
+Apache maven is used for compiling Java code
+Differnce between scripted and declarative pipeline
+---Simple Pipeline in Jenkins---------
+ node {
+    def mvnHome = tool 'MAVEN_HOME'
+    stage('CleanWorkspace') {
+        cleanWs()
+        }
+    stage ('SOURCE CODE CLONING') {
+        git 'https://github.com/akannan1087/myrepoforoctonline.git'
+    }
+    stage ('BUILD') {
+       sh "${mvnHome}/bin/mvn clean install -f MyWebApp/pom.xml"
+        
+    }
+    stage ('Code Quality scan')  {
+       withSonarQubeEnv('SONARQUBE') {
+       sh "${mvnHome}/bin/mvn -f MyWebApp/pom.xml sonar:sonar"
+    }
+    
+    }
+}
+--------------------------------------------

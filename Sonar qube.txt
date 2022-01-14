@@ -1,0 +1,13 @@
+----Sonar-qube installtion ref link
+https://www.vultr.com/docs/install-sonarqube-on-ubuntu-20-04-lts/
+--installing sonarqube from web in linux server
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-6.4.zip
+jdk-8 is mandatory
+
+
+----->Integrating Sonarqube with Jenkins
+1)Sonar analysis part commands in build stage
+sonar.projectKey=my:project
+sonar.projectName=My project
+sonar.projectVersion=1.0
+sonar.sources=MyWebApp/src

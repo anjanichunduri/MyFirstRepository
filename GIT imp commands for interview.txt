@@ -1,0 +1,30 @@
+Pull Request:
+
+
+Git fetch & pull
+
+Git rebase
+
+Git cherrypick
+
+Git Stash
+
+Git reset hard
+
+Git Squash
+
+Git diff
+
+Git tag
+
+
+Git log
+
+Git revert
+	• git branch {branch-name}   --> to create a new branch
+	• git branch  --> To display available branches
+	• git checkout -b {branch-name} --> to create a new branch and connect to the branch
+			§ Ex: git checkout -b test 
+	• git checkout {branch-name}  --> to switch to a branch
+git branch -d {branch-name}  --> to delete a branch
+vai-ydvg-zmu

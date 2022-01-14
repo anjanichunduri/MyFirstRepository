@@ -1,0 +1,2 @@
+what is the command to check the running processes
+pf -ef
