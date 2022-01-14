@@ -48,4 +48,14 @@ git branch -d {branch-name}  --> to delete a branch
 
 4)Now your code is available in the github account,which you can see on refershing.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------Git acommiting modified changes to repo------------------------------------------------------------------------
+1)Check by giving the below command 
+  git status
+2)Add the whole folder using below command
+  git add .
+3)Commiting
+ git  commit -m "added more content"
+4)pushing to repo
+ git push origin master
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
